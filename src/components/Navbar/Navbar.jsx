@@ -3,8 +3,20 @@ function Navbar()
 {
     return(
         <nav>
-            <div className="left">Left</div>
-            <div className="right">Right</div>
+            <div className="left">
+            <a href="/" className="logo">
+                <img src="./logo.png" alt="" />
+                <span>Estate Connect</span>
+            </a>
+            <a href="/">Home</a>
+            <a href="/">About</a>
+            <a href="/">Contact</a>
+            <a href="/">Agents</a>
+            </div>
+            <div className="right">
+                <a href="/">Sign in</a>
+                <a href="/">Sign up</a>
+            </div>
         </nav>
     )
 }
