@@ -12,19 +12,19 @@
 
      @include large
     {
-        background-color: rgb(222, 171, 153);
+        //background-color: rgb(222, 171, 153);
         max-width: 1280px;
     }
 
      @include medium
     {
-        background-color: rgb(196, 213, 244);
+        //background-color: rgb(196, 213, 244);
         max-width: 768px;
     }
 
      @include small
     {
-        background-color: rgb(237, 188, 188);
+        //background-color: rgb(237, 188, 188);
         max-width: 640px;
     }
 
